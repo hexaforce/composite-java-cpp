@@ -30,3 +30,7 @@ jni/.settings/
 .project
 swt/.classpath
 jni/.classpath
+.vscode/settings.json
+
+jni/src/*.o
+
