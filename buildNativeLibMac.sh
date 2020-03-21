@@ -11,4 +11,5 @@ g++ -c -fPIC -I${JAVA_HOME}/include -I${JAVA_HOME}/include/darwin ${TARGET}.cpp 
 TARGET=sdk_Obj
 g++ -c -fPIC -I${JAVA_HOME}/include -I${JAVA_HOME}/include/darwin ${TARGET}.cpp -o ${TARGET}.o
 
-g++ -dynamiclib -o ../native/macos/libnative.dylib sdk_Say.o sdk_Param.o sdk_Obj.o -lc
+mkdir -p ../lib/native/macos/
+g++ -dynamiclib -o ../lib/native/macos/libnative.dylib sdk_Say.o sdk_Param.o sdk_Obj.o -lc

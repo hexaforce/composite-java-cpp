@@ -34,3 +34,5 @@ jni/.classpath
 
 jni/src/*.o
 
+libnative.dylib
+api/.classpath

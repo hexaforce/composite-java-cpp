@@ -12,6 +12,7 @@
 
 	<modules>
 		<module>jni</module>
+		<module>api</module>
 		<module>swt</module>
 	</modules>
 
@@ -53,7 +54,6 @@
 	</dependencies>
 
 	<build>
-
 		<directory>build</directory>
 		<sourceDirectory>src</sourceDirectory>
 		<outputDirectory>bin</outputDirectory>
