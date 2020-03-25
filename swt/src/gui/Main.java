@@ -83,7 +83,9 @@ public class Main {
 				shell.layout();
 			}
 		});
+		
 		new Say().sayHello();
+		
 		shell.open();
 		while (!shell.isDisposed()) {
 			if (!display.readAndDispatch()) {

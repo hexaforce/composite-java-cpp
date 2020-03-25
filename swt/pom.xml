@@ -20,7 +20,7 @@
 		<dependency>
 			<groupId>org.eclipse.swt</groupId>
 			<artifactId>cocoa.macosx.x86_64</artifactId>
-			<version>4.14</version>
+			<version>4.15</version>
 		</dependency>
 		<dependency>
 			<groupId>io.hexaforce</groupId>
