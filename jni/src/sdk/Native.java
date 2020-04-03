@@ -11,8 +11,7 @@ public enum Native {
 
 	linux(new File("native/linux_x86_64/libnative.so")), //
 
-//	mac(new File("native/macos/libnative.dylib")), //
-	mac(new File("libnative.dylib")), //
+	mac(new File("lib/native/macos/libnative.dylib")), //
 
 	windows(new File("native/win32/native.dll"));
 

@@ -10,7 +10,6 @@ import javafx.scene.paint.Color;
 import sdk.Say;
 
 import org.eclipse.swt.SWT;
-import org.eclipse.swt.widgets.Button;
 import org.eclipse.swt.graphics.Point;
 import org.eclipse.swt.layout.RowLayout;
 import org.eclipse.swt.widgets.Display;
@@ -33,7 +32,7 @@ public class Main {
 		shell.setLayout(layout);
 
 		/* Create the SWT button */
-		final Button swtButton = new Button(shell, SWT.PUSH);
+		final org.eclipse.swt.widgets.Button swtButton = new org.eclipse.swt.widgets.Button(shell, SWT.PUSH);
 		swtButton.setText("SWT Button");
 
 		/* Create an FXCanvas */
