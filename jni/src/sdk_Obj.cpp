@@ -9,7 +9,7 @@
 JNIEXPORT jobject JNICALL Java_sdk_Obj_createUser(JNIEnv *env, jobject thisObject, jstring name, jdouble balance)
 {
     // Create the object of the class UserData
-    jclass userDataClass = env->FindClass("com/baeldung/jni/UserData");
+    jclass userDataClass = env->FindClass("sdk/UserData");
     jobject newUserData = env->AllocObject(userDataClass);
 
     // Get UserData fields to set
